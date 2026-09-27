@@ -1,0 +1,23 @@
+{
+  "name": "smartcontract",
+  "version": "1.0.0",
+  "description": "Track Pharma Smart Contract Project",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "node scripts/deploy.js"
+  },
+  "keywords": [],
+  "author": "Sampriti",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "ethers": "^5.7.2"
+  }
+}
